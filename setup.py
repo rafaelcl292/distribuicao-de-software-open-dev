@@ -11,4 +11,7 @@ setup(
     python_requires=">=3.6",
     scripts=["scripts/hello.py"],
     url="https://github.com/rafaelcl292/distribuicao-de-software-open-dev",
+    install_requires=[
+        "Babel",
+    ],
 )
